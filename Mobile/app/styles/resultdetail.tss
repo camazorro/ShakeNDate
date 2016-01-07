@@ -1,0 +1,41 @@
+"#lblBizName":{
+	width: "80%",
+	top: "0",
+	textAlign: "left"
+}
+
+"#lblDistance":{
+	width:"20%" 
+	,textAlign:"right" 
+	,top:"0"
+}
+
+"#imvRating":{
+	width: "106" 
+	,height: "18"
+}
+
+"#lblReviews":{
+	textAlign: "right" 
+	,top: "0"
+	,font:{
+		fontSize: 16
+	}
+}
+
+"#lblCategories":{
+	font:{
+		fontSize: 12
+	}
+	,top:"0"
+}
+
+"#mapPlaceHolder":{
+	touchEnabled:"false" 
+	,height:"250"
+	,backgroundImage: "images/mapbck.png"
+}
+
+"#lblAddress":{
+	width: "95%"
+},

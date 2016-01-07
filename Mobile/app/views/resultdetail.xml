@@ -1,0 +1,50 @@
+<Alloy>
+	<TableView backgroundColor="white" separatorStyle="none" selectionStyle="none" separatorColor="transparent">
+	<HeaderView>
+		<View height="64"></View>
+	</HeaderView>
+	<TableViewRow height="Ti.UI.SIZE" selectedColor="white">
+		<View layout="vertical" height="Ti.UI.SIZE" width="90%">
+			<View layout="horizontal" height="Ti.UI.SIZE">
+				<Label id="lblBizName" ></Label>
+				<Label id="lblDistance" ></Label>
+			</View>
+			<View layout="horizontal" height="Ti.UI.SIZE">
+				<ImageView  id="imvRating"></ImageView>
+				<Label id="lblReviews"></Label>
+			</View>
+			
+			<View layout="horizontal" height="Ti.UI.SIZE">
+				<Label id="lblCategories"></Label>
+			</View>
+			
+			<View height="10"></View>
+	        <ButtonBar platform="ios"  tintColor="#8A8C8F" onClick="doBarAction">
+	    
+	            <!-- The Labels tag sets the ButtonBar.labels property -->
+	            <Labels>
+	                <!-- Specify text with node text or the title attribute. -->
+	                <!-- Can also specify the enabled, image and width attributes. -->
+	                <Label image="icons/map.png"  ></Label>
+	                 <Label image="icons/call.png"></Label>
+	                  <Label image="icons/facebook.png" ></Label>
+	                   <Label image="icons/twitter.png" ></Label>
+	                    <Label image="icons/yelp.png" ></Label>
+	            </Labels>
+	            <!-- Place additional views for the ButtonBar here. -->
+	        </ButtonBar>
+	        <View height="10"></View>
+	        <View borderColor="#8A8C8F" borderRadius="5" layout="vertical" height="Ti.UI.SIZE">
+	        	<View id="mapPlaceHolder">
+	        	</View>
+	        	<View borderColor="#8A8C8F" height="Ti.UI.SIZE">
+	        		<Label id="lblAddress"></Label>
+	        	</View>
+	        </View>
+			<View height="55"></View>
+			
+		</View>
+	</TableViewRow>
+</TableView>
+
+</Alloy>

@@ -1,0 +1,20 @@
+{
+  "name": "shakendate",
+  "version": "1.0.0",
+  "description": "Shake N Date Backend Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OutBoxSoft.com",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "mongoose": "^3.8.35",
+    "node-yelp": "0.0.3",
+    "restify": "^4.0.2",
+    "scatter": "^0.7.3",
+    "tingodb": "^0.4.1",
+    "tungus": "0.0.5"
+  }
+}

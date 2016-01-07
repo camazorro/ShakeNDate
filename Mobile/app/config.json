@@ -1,0 +1,20 @@
+{
+	"global": {},
+	"env:development": {
+		"urls":{
+			"api" : "http://localhost:3000"
+		}
+	},
+	"env:test": {},
+	"env:production": {
+		"urls":{
+			"api" : "http://sadapi.webappdemos.com"
+		}	
+	},
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"os:windows": {},
+	"dependencies": {}
+}

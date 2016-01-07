@@ -1,0 +1,32 @@
+<Alloy>
+	<NavigationWindow platform="ios">
+		<Window id="mainWindow">
+			<LeftNavButton></LeftNavButton>
+			<TitleControl>
+				<Label text="Shake N Date" color="#FFF"></Label>
+			</TitleControl>
+			<RightNavButton>
+				<Button id="refreshButton"  onClick="doSearchRest" ></Button>
+			</RightNavButton>
+			<View id="shakeImage" ></View>
+	        <View id="activityIndicatorView">
+				<ActivityIndicator color="white" id="activityIndicator" style="Titanium.UI.iPhone.ActivityIndicatorStyle.BIG" message="" top="25%" ></ActivityIndicator>
+				<Label text="Searching..." color="white" bottom="25%"></Label>
+	        </View>
+	
+	        	<ScrollableView id="svResults" ></ScrollableView>
+	        	<AdView width="auto" height="50" visible="false" bottom="44" ></AdView>	
+	        <Button title="m" id="SharePlace" onClick="doShare" tintColor="white" enabled="false" />
+	        <OptionDialog id="shareDialog" onClick="doShareCommand">
+	            <Options>
+	                <Option platform="ios">Message</Option>
+	                <Option>Mail</Option>
+	                <Option>Cancel</Option>
+	            </Options>
+	            <ButtonNames>
+	                <ButtonName>Help</ButtonName>
+	            </ButtonNames>
+	        </OptionDialog>
+		</Window>		
+	</NavigationWindow>
+</Alloy>

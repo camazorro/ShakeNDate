@@ -1,0 +1,71 @@
+"#mainWindow": {
+     extendEdges: [Ti.UI.EXTEND_EDGE_TOP, Ti.UI.EXTEND_EDGE_BOTTOM]
+   	,includeOpaqueBars: false
+    ,backgroundColor: '#FFFFFF'
+    ,navBarHidden: false
+    ,barColor: '#6392d2'
+    ,navTintColor: '#FFFFFF' 
+       
+    ,translucent: true
+    ,statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT
+    ,orientationModes:[
+		Titanium.UI.PORTRAIT,
+		Titanium.UI.UPSIDE_PORTRAIT
+    ]
+},
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}, 
+
+"#SharePlace":{
+	font: {
+      fontFamily: 'snd',
+      fontSize: 34,
+      fontWeight: 'bold'
+	 },
+	 bottom:"0",
+	 width:"44",
+	 height:"44",
+	 right:"0"
+},
+
+"#activityIndicator":{
+	  color: 'green',
+	  font: {fontFamily:'Helvetica Neue', fontSize:26, fontWeight:'bold'},
+	  message: 'Loading...',
+	  style:Ti.UI.iPhone.ActivityIndicatorStyle.DARK,
+	  height:Titanium.UI.SIZE,
+	  width:Titanium.UI.SIZE
+},
+
+"#svResults":{
+	showPagingControl: true,
+	pagingControlColor: '#6392d2',
+	pagingControlHeight: 44
+},
+
+"#shareDialog":{
+	title: 'Share what you found'
+},
+
+"#shakeImage":{
+	width:"186" 
+	,height:"300" 
+	,backgroundImage:"images/iPhoneShake.png"
+},
+
+"#refreshButton":{
+	systemButton: Titanium.UI.iPhone.SystemButton.REFRESH
+}
+
+"#activityIndicatorView":{
+	 height:"25%" 
+	 ,width:"45%" 
+	 ,borderRadius:"5" 
+	 ,opacity:".5" 
+	 ,backgroundColor:"black" 
+	 ,visible:"false"
+}
